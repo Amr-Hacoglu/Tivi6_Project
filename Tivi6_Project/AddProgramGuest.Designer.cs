@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddProgramGuest));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -43,27 +44,42 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // label1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1345, 799);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Crimson;
+            this.label1.Location = new System.Drawing.Point(584, 762);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(193, 17);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "DeveloppedByOmerHacoglu";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.OrangeRed;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(812, 712);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(104, 47);
+            this.button4.TabIndex = 45;
+            this.button4.Text = "Main";
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // label11
             // 
@@ -92,11 +108,11 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(456, 712);
+            this.button2.Location = new System.Drawing.Point(429, 712);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 47);
+            this.button2.Size = new System.Drawing.Size(106, 47);
             this.button2.TabIndex = 40;
-            this.button2.Text = "Add Guest";
+            this.button2.Text = "Add";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // label10
@@ -201,17 +217,6 @@
             this.textBox3.Size = new System.Drawing.Size(239, 36);
             this.textBox3.TabIndex = 30;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(576, 193);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 30);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "Phone Number";
-            // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -220,6 +225,17 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(239, 36);
             this.textBox2.TabIndex = 28;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Crimson;
+            this.label2.Location = new System.Drawing.Point(494, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(356, 51);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Add New Guest";
             // 
             // label4
             // 
@@ -252,25 +268,25 @@
             this.label3.TabIndex = 25;
             this.label3.Text = "X";
             // 
-            // label2
+            // label5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(494, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(356, 51);
-            this.label2.TabIndex = 24;
-            this.label2.Text = "Add New Guest";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label5.Location = new System.Drawing.Point(576, 193);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(192, 30);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Phone Number";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Goldenrod;
+            this.button1.BackColor = System.Drawing.Color.Indigo;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(662, 712);
+            this.button1.Location = new System.Drawing.Point(558, 712);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 43;
@@ -284,12 +300,23 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(785, 712);
+            this.button3.Location = new System.Drawing.Point(685, 712);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 47);
             this.button3.TabIndex = 44;
             this.button3.Text = "Back";
             this.button3.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1345, 799);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // AddProgramGuest
             // 
@@ -297,6 +324,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1345, 799);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label11);
@@ -331,7 +360,8 @@
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private Label label1;
+        private Button button4;
         private Label label11;
         private TextBox textBox7;
         private Button button2;
@@ -345,13 +375,14 @@
         private Label label7;
         private Label label6;
         private TextBox textBox3;
-        private Label label5;
         private TextBox textBox2;
+        private Label label2;
         private Label label4;
         private TextBox textBox1;
         private Label label3;
-        private Label label2;
+        private Label label5;
         private Button button1;
         private Button button3;
+        private PictureBox pictureBox1;
     }
 }
