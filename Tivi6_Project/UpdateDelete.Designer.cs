@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -38,26 +38,26 @@
             this.label11 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.LNameTb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.DurationTb = new System.Windows.Forms.TextBox();
+            this.NoteTb = new System.Windows.Forms.TextBox();
+            this.TimeTb = new System.Windows.Forms.TextBox();
+            this.PartyTb = new System.Windows.Forms.TextBox();
+            this.AgeTb = new System.Windows.Forms.TextBox();
+            this.PhoneTb = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.FNameTb = new System.Windows.Forms.TextBox();
             this.GuestSDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.GenderCb = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.GuestSDGV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(576, 778);
+            this.label1.Location = new System.Drawing.Point(690, 778);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(193, 17);
             this.label1.TabIndex = 70;
@@ -79,26 +79,28 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(825, 729);
+            this.button4.Location = new System.Drawing.Point(935, 728);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(104, 47);
             this.button4.TabIndex = 69;
             this.button4.Text = "Main";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button3.BackColor = System.Drawing.Color.Crimson;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(551, 729);
+            this.button3.Location = new System.Drawing.Point(661, 728);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 47);
             this.button3.TabIndex = 68;
-            this.button3.Text = "Back";
+            this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -107,12 +109,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(688, 729);
+            this.button1.Location = new System.Drawing.Point(798, 728);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 67;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label11
             // 
@@ -120,7 +123,7 @@
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label11.Location = new System.Drawing.Point(95, 387);
+            this.label11.Location = new System.Drawing.Point(95, 454);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(108, 21);
             this.label11.TabIndex = 66;
@@ -128,17 +131,18 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.BackColor = System.Drawing.Color.ForestGreen;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(414, 729);
+            this.button2.Location = new System.Drawing.Point(524, 728);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 47);
             this.button2.TabIndex = 64;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label10
             // 
@@ -152,24 +156,13 @@
             this.label10.TabIndex = 63;
             this.label10.Text = "Duration";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(66, 484);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(165, 28);
-            this.comboBox1.TabIndex = 61;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label9.Location = new System.Drawing.Point(122, 515);
+            this.label9.Location = new System.Drawing.Point(122, 518);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(47, 21);
             this.label9.TabIndex = 60;
@@ -186,18 +179,6 @@
             this.label8.Size = new System.Drawing.Size(52, 21);
             this.label8.TabIndex = 58;
             this.label8.Text = "Note";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label7.Location = new System.Drawing.Point(110, 450);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 21);
-            this.label7.TabIndex = 56;
-            this.label7.Text = "Gender";
             // 
             // label6
             // 
@@ -235,19 +216,19 @@
             this.label4.TabIndex = 51;
             this.label4.Text = "Last Name";
             // 
-            // textBox1
+            // LNameTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox1.Location = new System.Drawing.Point(66, 214);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 26);
-            this.textBox1.TabIndex = 50;
+            this.LNameTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LNameTb.ForeColor = System.Drawing.Color.Crimson;
+            this.LNameTb.Location = new System.Drawing.Point(66, 214);
+            this.LNameTb.Name = "LNameTb";
+            this.LNameTb.Size = new System.Drawing.Size(165, 26);
+            this.LNameTb.TabIndex = 50;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.LightGray;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Crimson;
             this.label3.Location = new System.Drawing.Point(1296, 9);
@@ -255,11 +236,12 @@
             this.label3.Size = new System.Drawing.Size(37, 37);
             this.label3.TabIndex = 49;
             this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.LightGray;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Location = new System.Drawing.Point(453, 21);
@@ -268,59 +250,59 @@
             this.label2.TabIndex = 48;
             this.label2.Text = "Update AND Delete";
             // 
-            // textBox4
+            // DurationTb
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox4.Location = new System.Drawing.Point(66, 617);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(165, 26);
-            this.textBox4.TabIndex = 62;
+            this.DurationTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DurationTb.ForeColor = System.Drawing.Color.Crimson;
+            this.DurationTb.Location = new System.Drawing.Point(66, 617);
+            this.DurationTb.Name = "DurationTb";
+            this.DurationTb.Size = new System.Drawing.Size(165, 26);
+            this.DurationTb.TabIndex = 62;
             // 
-            // textBox5
+            // NoteTb
             // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox5.Location = new System.Drawing.Point(66, 681);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(165, 26);
-            this.textBox5.TabIndex = 57;
+            this.NoteTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NoteTb.ForeColor = System.Drawing.Color.Crimson;
+            this.NoteTb.Location = new System.Drawing.Point(66, 681);
+            this.NoteTb.Name = "NoteTb";
+            this.NoteTb.Size = new System.Drawing.Size(165, 26);
+            this.NoteTb.TabIndex = 57;
             // 
-            // textBox6
+            // TimeTb
             // 
-            this.textBox6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox6.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox6.Location = new System.Drawing.Point(66, 551);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(165, 26);
-            this.textBox6.TabIndex = 59;
+            this.TimeTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TimeTb.ForeColor = System.Drawing.Color.Crimson;
+            this.TimeTb.Location = new System.Drawing.Point(66, 551);
+            this.TimeTb.Name = "TimeTb";
+            this.TimeTb.Size = new System.Drawing.Size(165, 26);
+            this.TimeTb.TabIndex = 59;
             // 
-            // textBox7
+            // PartyTb
             // 
-            this.textBox7.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox7.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox7.Location = new System.Drawing.Point(66, 421);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(165, 26);
-            this.textBox7.TabIndex = 65;
+            this.PartyTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PartyTb.ForeColor = System.Drawing.Color.Crimson;
+            this.PartyTb.Location = new System.Drawing.Point(66, 484);
+            this.PartyTb.Name = "PartyTb";
+            this.PartyTb.Size = new System.Drawing.Size(165, 26);
+            this.PartyTb.TabIndex = 65;
             // 
-            // textBox3
+            // AgeTb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox3.Location = new System.Drawing.Point(66, 348);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 26);
-            this.textBox3.TabIndex = 54;
+            this.AgeTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AgeTb.ForeColor = System.Drawing.Color.Crimson;
+            this.AgeTb.Location = new System.Drawing.Point(66, 348);
+            this.AgeTb.Name = "AgeTb";
+            this.AgeTb.Size = new System.Drawing.Size(165, 26);
+            this.AgeTb.TabIndex = 54;
             // 
-            // textBox2
+            // PhoneTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox2.Location = new System.Drawing.Point(66, 281);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(165, 26);
-            this.textBox2.TabIndex = 52;
+            this.PhoneTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PhoneTb.ForeColor = System.Drawing.Color.Crimson;
+            this.PhoneTb.Location = new System.Drawing.Point(66, 281);
+            this.PhoneTb.Name = "PhoneTb";
+            this.PhoneTb.Size = new System.Drawing.Size(165, 26);
+            this.PhoneTb.TabIndex = 52;
             // 
             // label12
             // 
@@ -328,7 +310,7 @@
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label12.Location = new System.Drawing.Point(300, 87);
+            this.label12.Location = new System.Drawing.Point(285, 89);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(283, 21);
             this.label12.TabIndex = 72;
@@ -346,41 +328,41 @@
             this.label13.TabIndex = 74;
             this.label13.Text = "First Name";
             // 
-            // textBox8
+            // FNameTb
             // 
-            this.textBox8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox8.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox8.Location = new System.Drawing.Point(66, 146);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(165, 26);
-            this.textBox8.TabIndex = 73;
+            this.FNameTb.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.FNameTb.ForeColor = System.Drawing.Color.Crimson;
+            this.FNameTb.Location = new System.Drawing.Point(66, 146);
+            this.FNameTb.Name = "FNameTb";
+            this.FNameTb.Size = new System.Drawing.Size(165, 26);
+            this.FNameTb.TabIndex = 73;
             // 
             // GuestSDGV
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.GuestSDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.GuestSDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.GuestSDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GuestSDGV.BackgroundColor = System.Drawing.Color.White;
             this.GuestSDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.GuestSDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.GuestSDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.GuestSDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GuestSDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.GuestSDGV.ColumnHeadersHeight = 30;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.GuestSDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.GuestSDGV.DefaultCellStyle = dataGridViewCellStyle6;
             this.GuestSDGV.EnableHeadersVisualStyles = false;
             this.GuestSDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.GuestSDGV.Location = new System.Drawing.Point(285, 113);
@@ -412,6 +394,30 @@
             this.GuestSDGV.ThemeStyle.RowsStyle.Height = 25;
             this.GuestSDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.Crimson;
             this.GuestSDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.GuestSDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GuestSDGV_CellContentClick);
+            // 
+            // GenderCb
+            // 
+            this.GenderCb.FormattingEnabled = true;
+            this.GenderCb.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.GenderCb.Location = new System.Drawing.Point(66, 417);
+            this.GenderCb.Name = "GenderCb";
+            this.GenderCb.Size = new System.Drawing.Size(165, 28);
+            this.GenderCb.TabIndex = 77;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label7.Location = new System.Drawing.Point(110, 383);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(74, 21);
+            this.label7.TabIndex = 76;
+            this.label7.Text = "Gender";
             // 
             // UpdateDelete
             // 
@@ -419,31 +425,31 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1345, 799);
+            this.Controls.Add(this.GenderCb);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.GuestSDGV);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.FNameTb);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.PartyTb);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.DurationTb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.TimeTb);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.NoteTb);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.AgeTb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.PhoneTb);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.LNameTb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -466,25 +472,25 @@
         private Label label11;
         private Button button2;
         private Label label10;
-        private ComboBox comboBox1;
         private Label label9;
         private Label label8;
-        private Label label7;
         private Label label6;
         private Label label5;
         private Label label4;
-        private TextBox textBox1;
+        private TextBox LNameTb;
         private Label label3;
         private Label label2;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox3;
-        private TextBox textBox2;
+        private TextBox DurationTb;
+        private TextBox NoteTb;
+        private TextBox TimeTb;
+        private TextBox PartyTb;
+        private TextBox AgeTb;
+        private TextBox PhoneTb;
         private Label label12;
         private Label label13;
-        private TextBox textBox8;
+        private TextBox FNameTb;
         private Guna.UI2.WinForms.Guna2DataGridView GuestSDGV;
+        private ComboBox GenderCb;
+        private Label label7;
     }
 }

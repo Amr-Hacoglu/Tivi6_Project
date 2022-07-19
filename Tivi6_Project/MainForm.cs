@@ -24,12 +24,16 @@ namespace Tivi6_Project
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            Payment pay = new Payment();
+            pay.Show();
+            this.Hide();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            UpdateDelete upde = new UpdateDelete();
+            upde.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -41,6 +45,13 @@ namespace Tivi6_Project
         {
             AddProgramGuest addp = new AddProgramGuest();
             addp.Show();
+            this.Hide();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            UpdateDelete upde = new UpdateDelete();
+            upde.Show();
             this.Hide();
         }
     }
