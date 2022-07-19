@@ -60,7 +60,8 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(162, 46);
             this.guna2Button1.TabIndex = 1;
-            this.guna2Button1.Text = "Add";
+            this.guna2Button1.Text = "Ekle";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button2
             // 
@@ -76,7 +77,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(162, 46);
             this.guna2Button2.TabIndex = 2;
-            this.guna2Button2.Text = "Delete";
+            this.guna2Button2.Text = "Sil";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button3
@@ -93,7 +94,7 @@
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(162, 46);
             this.guna2Button3.TabIndex = 3;
-            this.guna2Button3.Text = "Update";
+            this.guna2Button3.Text = "Güncelle";
             // 
             // guna2Button4
             // 
@@ -109,7 +110,7 @@
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(162, 46);
             this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "Payment";
+            this.guna2Button4.Text = "Ödeme";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // pictureBox1

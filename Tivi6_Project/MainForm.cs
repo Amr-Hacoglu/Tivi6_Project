@@ -36,5 +36,12 @@ namespace Tivi6_Project
         {
             Application.Exit();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            AddProgramGuest addp = new AddProgramGuest();
+            addp.Show();
+            this.Hide();
+        }
     }
 }
