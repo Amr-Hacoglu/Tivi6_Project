@@ -31,8 +31,8 @@ namespace Tivi6_Project
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            UpdateDelete upde = new UpdateDelete();
-            upde.Show();
+            VeiwGuests vg = new VeiwGuests();
+            vg.Show();
             this.Hide();
         }
 

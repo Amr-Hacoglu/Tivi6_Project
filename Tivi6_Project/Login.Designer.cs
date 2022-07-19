@@ -32,13 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.UidTb = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.PassTb = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -74,15 +74,15 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // UidTb
             // 
-            this.guna2Transition1.SetDecoration(this.textBox1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox1.Location = new System.Drawing.Point(357, 76);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(207, 48);
-            this.textBox1.TabIndex = 2;
+            this.guna2Transition1.SetDecoration(this.UidTb, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.UidTb.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UidTb.ForeColor = System.Drawing.Color.Crimson;
+            this.UidTb.Location = new System.Drawing.Point(357, 76);
+            this.UidTb.Name = "UidTb";
+            this.UidTb.Size = new System.Drawing.Size(207, 48);
+            this.UidTb.TabIndex = 2;
             // 
             // pictureBox2
             // 
@@ -106,15 +106,16 @@
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
-            // textBox2
+            // PassTb
             // 
-            this.guna2Transition1.SetDecoration(this.textBox2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox2.Location = new System.Drawing.Point(357, 147);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(207, 48);
-            this.textBox2.TabIndex = 4;
+            this.guna2Transition1.SetDecoration(this.PassTb, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.PassTb.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PassTb.ForeColor = System.Drawing.Color.Crimson;
+            this.PassTb.Location = new System.Drawing.Point(357, 147);
+            this.PassTb.Name = "PassTb";
+            this.PassTb.PasswordChar = '*';
+            this.PassTb.Size = new System.Drawing.Size(207, 48);
+            this.PassTb.TabIndex = 4;
             // 
             // button1
             // 
@@ -130,6 +131,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "Reset";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -145,18 +147,21 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label1
+            // label2
             // 
-            this.label1.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.label1, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(445, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Tivi6";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.guna2Transition1.SetDecoration(this.label2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Crimson;
+            this.label2.Location = new System.Drawing.Point(596, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 37);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "X";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Login
             // 
@@ -164,19 +169,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(645, 302);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.PassTb);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.UidTb);
             this.Controls.Add(this.pictureBox1);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -189,12 +195,12 @@
 
         private Guna.UI2.WinForms.Guna2Transition guna2Transition1;
         private PictureBox pictureBox1;
-        private TextBox textBox1;
+        private TextBox UidTb;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private TextBox textBox2;
+        private TextBox PassTb;
         private Button button1;
         private Button button2;
-        private Label label1;
+        private Label label2;
     }
 }

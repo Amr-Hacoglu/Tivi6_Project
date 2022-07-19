@@ -77,7 +77,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(162, 46);
             this.guna2Button2.TabIndex = 2;
-            this.guna2Button2.Text = "Sil";
+            this.guna2Button2.Text = "Liste";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button3

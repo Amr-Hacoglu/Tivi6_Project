@@ -15,6 +15,17 @@ namespace Tivi6_Project
     {
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\90538\Documents\Tivi6Db.mdf;Integrated Security=True;Connect Timeout=30");
 
+        private void FilterByName()
+        {
+            Con.Open();
+            string qurey = "SELECT * FROM PaymentTbl WHERE PGuest = '"+ SearchName.Text+ "'";
+            SqlDataAdapter sda = new SqlDataAdapter(qurey, Con);
+            SqlCommandBuilder build = new SqlCommandBuilder();
+            var ds = new DataSet();
+            sda.Fill(ds);
+            PaymentDGV.DataSource = ds.Tables[0];
+            Con.Close();
+        }
         private void populate() // display the data on the form
         {
             Con.Open();
@@ -80,6 +91,18 @@ namespace Tivi6_Project
             }
             else
             {
+                string PayPeriode = Periode.Value.Day.ToString() +"/"+ Periode.Value.Month.ToString() + "/" + Periode.Value.Year.ToString();
+                Con.Open();
+                string query = "INSERT INTO PaymentTbl VALUES ('" + PayPeriode + "','" + PayNameCb.SelectedValue.ToString() + "'," + PayAmtTb.Text + ")";
+                SqlCommand cmd = new SqlCommand(query, Con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Amount Paid Successfully ");
+                
+                Con.Close();
+                populate();
+
+
+                /*
                 string PayPeriode = Periode.Value.Month.ToString() + Periode.Value.Year.ToString(); // + Periode.Value.Day.ToString();
                 Con.Open();
                 SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT(*) FROM PaymentTbl WHERE PGuest = '" + PayNameCb.SelectedValue.ToString() + "' AND PMonth = '"  + PayPeriode + "'",Con);
@@ -98,6 +121,7 @@ namespace Tivi6_Project
                 }
                 Con.Close();
                 populate();
+                */
             }
         }
 
@@ -114,6 +138,17 @@ namespace Tivi6_Project
         private void label3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FilterByName();
+            SearchName.Text = "";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            populate();
         }
     }
 }

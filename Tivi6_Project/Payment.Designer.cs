@@ -47,6 +47,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.PayNameCb = new System.Windows.Forms.ComboBox();
             this.PaymentDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.SearchName = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -83,7 +86,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label4.Location = new System.Drawing.Point(36, 231);
+            this.label4.Location = new System.Drawing.Point(45, 278);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(216, 30);
             this.label4.TabIndex = 53;
@@ -94,7 +97,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(85, 338);
+            this.label5.Location = new System.Drawing.Point(94, 385);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(108, 30);
             this.label5.TabIndex = 57;
@@ -104,14 +107,14 @@
             // 
             this.PayAmtTb.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PayAmtTb.ForeColor = System.Drawing.Color.Crimson;
-            this.PayAmtTb.Location = new System.Drawing.Point(25, 389);
+            this.PayAmtTb.Location = new System.Drawing.Point(34, 436);
             this.PayAmtTb.Name = "PayAmtTb";
             this.PayAmtTb.Size = new System.Drawing.Size(239, 36);
             this.PayAmtTb.TabIndex = 56;
             // 
             // Periode
             // 
-            this.Periode.Location = new System.Drawing.Point(25, 179);
+            this.Periode.Location = new System.Drawing.Point(34, 226);
             this.Periode.Name = "Periode";
             this.Periode.Size = new System.Drawing.Size(239, 27);
             this.Periode.TabIndex = 58;
@@ -121,7 +124,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label1.Location = new System.Drawing.Point(103, 135);
+            this.label1.Location = new System.Drawing.Point(112, 182);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 30);
             this.label1.TabIndex = 59;
@@ -134,7 +137,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(25, 449);
+            this.button3.Location = new System.Drawing.Point(34, 496);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 47);
             this.button3.TabIndex = 70;
@@ -149,7 +152,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(160, 449);
+            this.button1.Location = new System.Drawing.Point(169, 496);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 69;
@@ -164,7 +167,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(93, 514);
+            this.button2.Location = new System.Drawing.Point(102, 561);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 47);
             this.button2.TabIndex = 71;
@@ -175,7 +178,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(25, 513);
+            this.pictureBox2.Location = new System.Drawing.Point(34, 560);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 48);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -185,7 +188,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(214, 513);
+            this.pictureBox1.Location = new System.Drawing.Point(223, 560);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -208,7 +211,7 @@
             this.PayNameCb.Items.AddRange(new object[] {
             "Erkek",
             "Kız"});
-            this.PayNameCb.Location = new System.Drawing.Point(25, 284);
+            this.PayNameCb.Location = new System.Drawing.Point(34, 331);
             this.PayNameCb.Name = "PayNameCb";
             this.PayNameCb.Size = new System.Drawing.Size(239, 28);
             this.PayNameCb.TabIndex = 76;
@@ -242,13 +245,13 @@
             this.PaymentDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.PaymentDGV.EnableHeadersVisualStyles = false;
             this.PaymentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.PaymentDGV.Location = new System.Drawing.Point(312, 135);
+            this.PaymentDGV.Location = new System.Drawing.Point(312, 182);
             this.PaymentDGV.Name = "PaymentDGV";
             this.PaymentDGV.RowHeadersVisible = false;
             this.PaymentDGV.RowHeadersWidth = 51;
             this.PaymentDGV.RowTemplate.Height = 25;
             this.PaymentDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PaymentDGV.Size = new System.Drawing.Size(1005, 637);
+            this.PaymentDGV.Size = new System.Drawing.Size(992, 581);
             this.PaymentDGV.TabIndex = 77;
             this.PaymentDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.PaymentDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -273,11 +276,53 @@
             this.PaymentDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.PaymentDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.PaymentDGV_CellContentClick);
             // 
+            // SearchName
+            // 
+            this.SearchName.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SearchName.ForeColor = System.Drawing.Color.Crimson;
+            this.SearchName.Location = new System.Drawing.Point(647, 140);
+            this.SearchName.Name = "SearchName";
+            this.SearchName.Size = new System.Drawing.Size(239, 36);
+            this.SearchName.TabIndex = 78;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Crimson;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(885, 140);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(104, 36);
+            this.button4.TabIndex = 79;
+            this.button4.Text = "Search";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(995, 140);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(104, 36);
+            this.button5.TabIndex = 80;
+            this.button5.Text = "Refresh";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1345, 799);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.SearchName);
             this.Controls.Add(this.PaymentDGV);
             this.Controls.Add(this.PayNameCb);
             this.Controls.Add(this.pictureBox3);
@@ -324,5 +369,8 @@
         private PictureBox pictureBox3;
         private ComboBox PayNameCb;
         private Guna.UI2.WinForms.Guna2DataGridView PaymentDGV;
+        private TextBox SearchName;
+        private Button button4;
+        private Button button5;
     }
 }

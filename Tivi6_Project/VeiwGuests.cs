@@ -43,9 +43,29 @@ namespace Tivi6_Project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            MainForm mf = new MainForm();
+            mf.Show();
             this.Hide();
+        }
+        private void FilterByName()
+        {
+            Con.Open();
+            string qurey = "SELECT * FROM GuestTBL WHERE GLName = '" + SearchGuest.Text + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(qurey, Con);
+            SqlCommandBuilder build = new SqlCommandBuilder();
+            var ds = new DataSet();
+            sda.Fill(ds);
+            GuestSDGV.DataSource = ds.Tables[0];
+            Con.Close();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FilterByName();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            populate();
         }
     }
 }
