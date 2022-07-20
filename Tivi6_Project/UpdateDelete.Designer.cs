@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -68,9 +68,9 @@
             this.label1.ForeColor = System.Drawing.Color.Crimson;
             this.label1.Location = new System.Drawing.Point(690, 778);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 17);
+            this.label1.Size = new System.Drawing.Size(183, 17);
             this.label1.TabIndex = 70;
-            this.label1.Text = "DeveloppedByOmerHacoglu";
+            this.label1.Text = "DeveloppedByAmrHacoglu";
             // 
             // button4
             // 
@@ -81,9 +81,9 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(935, 728);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 47);
+            this.button4.Size = new System.Drawing.Size(127, 47);
             this.button4.TabIndex = 69;
-            this.button4.Text = "Main";
+            this.button4.Text = "AnaSayfa";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -98,7 +98,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 47);
             this.button3.TabIndex = 68;
-            this.button3.Text = "Delete";
+            this.button3.Text = "Silme";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -113,7 +113,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 67;
-            this.button1.Text = "Reset";
+            this.button1.Text = "Sıfırla";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -123,11 +123,11 @@
             this.label11.BackColor = System.Drawing.SystemColors.Control;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label11.Location = new System.Drawing.Point(95, 454);
+            this.label11.Location = new System.Drawing.Point(104, 456);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 21);
+            this.label11.Size = new System.Drawing.Size(85, 21);
             this.label11.TabIndex = 66;
-            this.label11.Text = "Party Name";
+            this.label11.Text = "Party Adı";
             // 
             // button2
             // 
@@ -136,11 +136,11 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(524, 728);
+            this.button2.Location = new System.Drawing.Point(486, 728);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 47);
+            this.button2.Size = new System.Drawing.Size(142, 47);
             this.button2.TabIndex = 64;
-            this.button2.Text = "Update";
+            this.button2.Text = "Güncelleme";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -150,11 +150,11 @@
             this.label10.BackColor = System.Drawing.SystemColors.Control;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label10.Location = new System.Drawing.Point(107, 585);
+            this.label10.Location = new System.Drawing.Point(106, 588);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 21);
+            this.label10.Size = new System.Drawing.Size(82, 21);
             this.label10.TabIndex = 63;
-            this.label10.Text = "Duration";
+            this.label10.Text = "Süre (dk)";
             // 
             // label9
             // 
@@ -164,9 +164,9 @@
             this.label9.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label9.Location = new System.Drawing.Point(122, 518);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 21);
+            this.label9.Size = new System.Drawing.Size(49, 21);
             this.label9.TabIndex = 60;
-            this.label9.Text = "Time";
+            this.label9.Text = "Saat";
             // 
             // label8
             // 
@@ -174,11 +174,11 @@
             this.label8.BackColor = System.Drawing.SystemColors.Control;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label8.Location = new System.Drawing.Point(120, 653);
+            this.label8.Location = new System.Drawing.Point(124, 655);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 21);
+            this.label8.Size = new System.Drawing.Size(41, 21);
             this.label8.TabIndex = 58;
-            this.label8.Text = "Note";
+            this.label8.Text = "Not";
             // 
             // label6
             // 
@@ -188,9 +188,9 @@
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label6.Location = new System.Drawing.Point(124, 314);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 21);
+            this.label6.Size = new System.Drawing.Size(40, 21);
             this.label6.TabIndex = 55;
-            this.label6.Text = "Age";
+            this.label6.Text = "Yaş";
             // 
             // label5
             // 
@@ -198,11 +198,11 @@
             this.label5.BackColor = System.Drawing.SystemColors.Control;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(83, 249);
+            this.label5.Location = new System.Drawing.Point(73, 252);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 21);
+            this.label5.Size = new System.Drawing.Size(151, 21);
             this.label5.TabIndex = 53;
-            this.label5.Text = "Phone Number";
+            this.label5.Text = "Telefon Numarası";
             // 
             // label4
             // 
@@ -210,11 +210,11 @@
             this.label4.BackColor = System.Drawing.SystemColors.Control;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label4.Location = new System.Drawing.Point(95, 181);
+            this.label4.Location = new System.Drawing.Point(114, 184);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 21);
+            this.label4.Size = new System.Drawing.Size(64, 21);
             this.label4.TabIndex = 51;
-            this.label4.Text = "Last Name";
+            this.label4.Text = "Soyadı";
             // 
             // LNameTb
             // 
@@ -245,11 +245,11 @@
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(453, 21);
+            this.label2.Location = new System.Drawing.Point(570, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(430, 49);
+            this.label2.Size = new System.Drawing.Size(332, 49);
             this.label2.TabIndex = 48;
-            this.label2.Text = "Update AND Delete";
+            this.label2.Text = "Güncelle ve Sil";
             // 
             // DurationTb
             // 
@@ -319,9 +319,9 @@
             this.label12.ForeColor = System.Drawing.Color.SeaGreen;
             this.label12.Location = new System.Drawing.Point(285, 89);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(283, 21);
+            this.label12.Size = new System.Drawing.Size(207, 21);
             this.label12.TabIndex = 72;
-            this.label12.Text = "Click on the guest to be deleted";
+            this.label12.Text = "Silinecek konuğa tıklayın";
             // 
             // label13
             // 
@@ -329,11 +329,11 @@
             this.label13.BackColor = System.Drawing.SystemColors.Control;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label13.Location = new System.Drawing.Point(97, 113);
+            this.label13.Location = new System.Drawing.Point(124, 113);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(96, 21);
+            this.label13.Size = new System.Drawing.Size(38, 21);
             this.label13.TabIndex = 74;
-            this.label13.Text = "First Name";
+            this.label13.Text = "Adı";
             // 
             // FNameTb
             // 
@@ -347,30 +347,30 @@
             // 
             // GuestSDGV
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.GuestSDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.White;
+            this.GuestSDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
             this.GuestSDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GuestSDGV.BackgroundColor = System.Drawing.Color.White;
             this.GuestSDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.GuestSDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.GuestSDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.GuestSDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.GuestSDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
             this.GuestSDGV.ColumnHeadersHeight = 30;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.GuestSDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.GuestSDGV.DefaultCellStyle = dataGridViewCellStyle57;
             this.GuestSDGV.EnableHeadersVisualStyles = false;
             this.GuestSDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.GuestSDGV.Location = new System.Drawing.Point(285, 113);
@@ -424,9 +424,9 @@
             this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label7.Location = new System.Drawing.Point(110, 383);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 21);
+            this.label7.Size = new System.Drawing.Size(73, 21);
             this.label7.TabIndex = 76;
-            this.label7.Text = "Gender";
+            this.label7.Text = "Cinsiyet";
             // 
             // UpdateDelete
             // 

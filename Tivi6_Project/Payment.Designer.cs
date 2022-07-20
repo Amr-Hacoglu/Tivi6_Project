@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Payment));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -77,31 +77,31 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Location = new System.Drawing.Point(561, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(225, 49);
+            this.label2.Size = new System.Drawing.Size(234, 49);
             this.label2.TabIndex = 50;
-            this.label2.Text = "Payments";
+            this.label2.Text = "Ödemeler";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label4.Location = new System.Drawing.Point(45, 278);
+            this.label4.Location = new System.Drawing.Point(66, 283);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(216, 30);
+            this.label4.Size = new System.Drawing.Size(175, 30);
             this.label4.TabIndex = 53;
-            this.label4.Text = "Guest Last Name";
+            this.label4.Text = "Misafir Soyadı";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(94, 385);
+            this.label5.Location = new System.Drawing.Point(32, 388);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(108, 30);
+            this.label5.Size = new System.Drawing.Size(244, 30);
             this.label5.TabIndex = 57;
-            this.label5.Text = "Amount";
+            this.label5.Text = "Verilen para miktarı";
             // 
             // PayAmtTb
             // 
@@ -126,9 +126,9 @@
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label1.Location = new System.Drawing.Point(112, 182);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 30);
+            this.label1.Size = new System.Drawing.Size(68, 30);
             this.label1.TabIndex = 59;
-            this.label1.Text = "Date";
+            this.label1.Text = "Tarih";
             // 
             // button3
             // 
@@ -141,7 +141,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 47);
             this.button3.TabIndex = 70;
-            this.button3.Text = "Pay";
+            this.button3.Text = "Ödemek";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -156,22 +156,22 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 69;
-            this.button1.Text = "Reset";
+            this.button1.Text = "Sıfırla";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkOrange;
+            this.button2.BackColor = System.Drawing.Color.OrangeRed;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(102, 561);
+            this.button2.Location = new System.Drawing.Point(96, 561);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 47);
+            this.button2.Size = new System.Drawing.Size(115, 47);
             this.button2.TabIndex = 71;
-            this.button2.Text = "Main";
+            this.button2.Text = "AnaSayfa";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -198,7 +198,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(782, 20);
+            this.pictureBox3.Location = new System.Drawing.Point(789, 20);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 48);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -219,30 +219,30 @@
             // 
             // PaymentDGV
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.PaymentDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+            this.PaymentDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
             this.PaymentDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.PaymentDGV.BackgroundColor = System.Drawing.Color.White;
             this.PaymentDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PaymentDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.PaymentDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.PaymentDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PaymentDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             this.PaymentDGV.ColumnHeadersHeight = 30;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.PaymentDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.PaymentDGV.DefaultCellStyle = dataGridViewCellStyle36;
             this.PaymentDGV.EnableHeadersVisualStyles = false;
             this.PaymentDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.PaymentDGV.Location = new System.Drawing.Point(312, 182);
@@ -296,7 +296,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(104, 36);
             this.button4.TabIndex = 79;
-            this.button4.Text = "Search";
+            this.button4.Text = "Arama";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -311,7 +311,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(104, 36);
             this.button5.TabIndex = 80;
-            this.button5.Text = "Refresh";
+            this.button5.Text = "Yenile";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 

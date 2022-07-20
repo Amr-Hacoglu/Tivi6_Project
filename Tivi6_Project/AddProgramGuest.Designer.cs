@@ -59,24 +59,24 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(583, 765);
+            this.label1.Location = new System.Drawing.Point(583, 773);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 17);
+            this.label1.Size = new System.Drawing.Size(183, 17);
             this.label1.TabIndex = 69;
-            this.label1.Text = "DeveloppedByOmerHacoglu";
+            this.label1.Text = "DeveloppedByAmrHacoglu";
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button4.BackColor = System.Drawing.Color.OrangeRed;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(757, 713);
+            this.button4.Location = new System.Drawing.Point(747, 713);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 47);
+            this.button4.Size = new System.Drawing.Size(136, 47);
             this.button4.TabIndex = 68;
-            this.button4.Text = "Main";
+            this.button4.Text = "AnaSayfa";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -87,11 +87,11 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(632, 713);
+            this.button1.Location = new System.Drawing.Point(622, 713);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 47);
             this.button1.TabIndex = 66;
-            this.button1.Text = "Reset";
+            this.button1.Text = "Sıfırla";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -102,9 +102,9 @@
             this.label11.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label11.Location = new System.Drawing.Point(1091, 360);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(110, 30);
+            this.label11.Size = new System.Drawing.Size(117, 30);
             this.label11.TabIndex = 65;
-            this.label11.Text = "Parti Adı";
+            this.label11.Text = "Party Adı";
             // 
             // PartyTb
             // 
@@ -122,11 +122,11 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(503, 713);
+            this.button2.Location = new System.Drawing.Point(493, 713);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(106, 47);
             this.button2.TabIndex = 63;
-            this.button2.Text = "Add";
+            this.button2.Text = "Ekle";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -135,11 +135,11 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label10.Location = new System.Drawing.Point(615, 531);
+            this.label10.Location = new System.Drawing.Point(641, 530);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 30);
+            this.label10.Size = new System.Drawing.Size(63, 30);
             this.label10.TabIndex = 62;
-            this.label10.Text = "Müddet";
+            this.label10.Text = "Süre";
             // 
             // DurationTb
             // 
@@ -152,13 +152,14 @@
             // 
             // GenderCb
             // 
+            this.GenderCb.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.GenderCb.FormattingEnabled = true;
             this.GenderCb.Items.AddRange(new object[] {
             "Erkek",
             "Kız"});
-            this.GenderCb.Location = new System.Drawing.Point(553, 420);
+            this.GenderCb.Location = new System.Drawing.Point(553, 412);
             this.GenderCb.Name = "GenderCb";
-            this.GenderCb.Size = new System.Drawing.Size(239, 28);
+            this.GenderCb.Size = new System.Drawing.Size(239, 35);
             this.GenderCb.TabIndex = 60;
             // 
             // label9
@@ -206,11 +207,11 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label7.Location = new System.Drawing.Point(634, 367);
+            this.label7.Location = new System.Drawing.Point(615, 369);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 30);
+            this.label7.Size = new System.Drawing.Size(107, 30);
             this.label7.TabIndex = 55;
-            this.label7.Text = "Cins";
+            this.label7.Text = "Cinsiyet";
             // 
             // label6
             // 
@@ -291,9 +292,9 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Location = new System.Drawing.Point(493, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(350, 49);
+            this.label2.Size = new System.Drawing.Size(354, 49);
             this.label2.TabIndex = 47;
-            this.label2.Text = "Add New Guest";
+            this.label2.Text = "Yeni Misafir Ekle";
             // 
             // label12
             // 

@@ -62,9 +62,9 @@
             this.label2.ForeColor = System.Drawing.Color.Crimson;
             this.label2.Location = new System.Drawing.Point(554, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(236, 49);
+            this.label2.Size = new System.Drawing.Size(284, 49);
             this.label2.TabIndex = 26;
-            this.label2.Text = "Guests List";
+            this.label2.Text = "Misafir Listesi";
             // 
             // GuestSDGV
             // 
@@ -144,7 +144,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 36);
             this.button1.TabIndex = 74;
-            this.button1.Text = "Search";
+            this.button1.Text = "Arama";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -159,7 +159,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 36);
             this.button2.TabIndex = 75;
-            this.button2.Text = "Refresh";
+            this.button2.Text = "Yenile";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -170,11 +170,11 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(638, 740);
+            this.button4.Location = new System.Drawing.Point(630, 740);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 47);
+            this.button4.Size = new System.Drawing.Size(123, 47);
             this.button4.TabIndex = 76;
-            this.button4.Text = "Main";
+            this.button4.Text = "AnaSayfa";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
