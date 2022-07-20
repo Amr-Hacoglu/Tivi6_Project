@@ -29,7 +29,8 @@ namespace Tivi6_Project
         private void populate() // display the data on the form
         {
             Con.Open();
-            string qurey = "SELECT * FROM PaymentTbl";
+            //string qurey = "SELECT * FROM PaymentTbl";
+            string qurey = "SELECT PId AS ID , PMonth AS Tarih , PGuest AS SoyAdı , PAmount AS Ödeme FROM PaymentTbl";
             SqlDataAdapter sda = new SqlDataAdapter(qurey, Con);
             SqlCommandBuilder build = new SqlCommandBuilder();
             var ds = new DataSet();

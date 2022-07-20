@@ -153,6 +153,7 @@
             // GenderCb
             // 
             this.GenderCb.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.GenderCb.ForeColor = System.Drawing.Color.Crimson;
             this.GenderCb.FormattingEnabled = true;
             this.GenderCb.Items.AddRange(new object[] {
             "Erkek",

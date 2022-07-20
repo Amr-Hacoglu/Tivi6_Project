@@ -19,7 +19,8 @@ namespace Tivi6_Project
         private void populate() // display the data on the form
         {
             Con.Open();
-            string qurey = "SELECT * FROM GuestTBL";
+            //string qurey = "SELECT * FROM GuestTBL";
+            string qurey = "SELECT GId AS ID , GFName AS Adı , GLName AS SoyAdı , GPhone AS TelNumarası , GAge AS Yaş , GGen AS Cinsiyet , GPartyName AS PartyAdı , GTime AS Saat , GDuration AS Süre , GNote AS Note FROM GuestTbl";
             SqlDataAdapter sda = new SqlDataAdapter(qurey, Con);
             SqlCommandBuilder build = new SqlCommandBuilder();
             var ds = new DataSet();
