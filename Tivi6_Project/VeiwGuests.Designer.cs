@@ -47,7 +47,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Crimson;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(31)))), ((int)(((byte)(104)))));
             this.label3.Location = new System.Drawing.Point(1298, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 37);
@@ -60,7 +60,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Control;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Crimson;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(31)))), ((int)(((byte)(104)))));
             this.label2.Location = new System.Drawing.Point(554, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(284, 49);
@@ -152,7 +152,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(167)))), ((int)(((byte)(221)))));
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 11.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
